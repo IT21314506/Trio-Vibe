@@ -1,11 +1,15 @@
-import React from 'react';
+import React from "react";
+import Navbar from "./components/Navbar";
+import About from "./components/About";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <h1>Welcome to Trio Vibe</h1>
+      <Navbar />
+      <div className="container">
+        <h1>Welcome to Trio Vibe</h1>
+        <p>Your one-stop solution for all your music needs.</p>
+      </div>
     </div>
   );
 }
-
-export default App;
