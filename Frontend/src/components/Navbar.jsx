@@ -15,8 +15,7 @@ const Navbar = () => {
                     spy={true} 
                     smooth={true}
                     duration={500}
-                    className="cursor-pointer"
-                    >
+                    className="cursor-pointer">
               Home
             </link>
                 <link to="dishes" 
